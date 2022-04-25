@@ -489,6 +489,20 @@ const thebe_selector_output = ".output, .cell_output"
                 
   <p>Visible Binder Link:</p>
 <p><a class="reference external" href="https://mybinder.org/v2/gh/UCB-stat-159-s22/hw06-LeifMartin/HEAD?labpath=index.ipynb"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython2 notranslate"><div class="highlight"><pre><span></span><span class="o">!</span>pip install .
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Obtaining file:///home/jovyan/HW/hw06-LeifMartin
+  Preparing metadata (setup.py) ... ?25ldone
+?25h<span class=" -Color -Color-Red">ERROR: Package &#39;ligotools&#39; requires a different Python: 3.9.9 not in &#39;==2.7.15&#39;</span>
+</pre></div>
+</div>
+</div>
+</div>
 <div class="tex2jax_ignore mathjax_ignore section" id="binary-black-hole-signals-in-ligo-open-data">
 <h1>BINARY BLACK HOLE SIGNALS IN LIGO OPEN DATA<a class="headerlink" href="#binary-black-hole-signals-in-ligo-open-data" title="Permalink to this headline">¶</a></h1>
 <p>Version 1.63, 2017 Sept 11</p>
@@ -764,7 +778,7 @@ For L1, 32 out of 32 seconds contain usable DATA
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1126259462.44
 </pre></div>
 </div>
-<img alt="_images/index_17_1.png" src="_images/index_17_1.png" />
+<img alt="_images/index_18_1.png" src="_images/index_18_1.png" />
 </div>
 </div>
 <p>The data are dominated by <strong>low frequency noise</strong>; there is no way to see a signal here, without some signal processing.</p>
@@ -820,7 +834,7 @@ For the moment, let’s ignore that, and assume it’s all noise.</p>
   warnings.warn(message, mplDeprecation, stacklevel=1)
 </pre></div>
 </div>
-<img alt="_images/index_20_1.png" src="_images/index_20_1.png" />
+<img alt="_images/index_21_1.png" src="_images/index_21_1.png" />
 </div>
 </div>
 <p>NOTE that we only plot the data between f_min = 20 Hz and f_max = 2000 Hz.</p>
@@ -1000,8 +1014,8 @@ Whitening requires no prior knowledge of spectral lines, etc; only the data are 
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/index_28_0.png" src="_images/index_28_0.png" />
-<img alt="_images/index_28_1.png" src="_images/index_28_1.png" />
+<img alt="_images/index_29_0.png" src="_images/index_29_0.png" />
+<img alt="_images/index_29_1.png" src="_images/index_29_1.png" />
 </div>
 </div>
 <p>In the above spectrograms, you may see lots of excess power below ~20 Hz, as well as strong spectral lines at 500, 1000, 1500 Hz (also evident in the ASDs above). The lines at multiples of 500 Hz are the harmonics of the “violin modes” of the fibers holding up the mirrors of the Advanced LIGO interferometers.</p>
@@ -1044,8 +1058,8 @@ Whitening requires no prior knowledge of spectral lines, etc; only the data are 
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/index_30_0.png" src="_images/index_30_0.png" />
-<img alt="_images/index_30_1.png" src="_images/index_30_1.png" />
+<img alt="_images/index_31_0.png" src="_images/index_31_0.png" />
+<img alt="_images/index_31_1.png" src="_images/index_31_1.png" />
 </div>
 </div>
 <p>Loud (high SNR) signals may be visible in these spectrograms.  Compact object mergers show a characteristic “chirp” as the signal rises in frequency.  If you can’t see anything, try
@@ -1190,7 +1204,7 @@ v/c at peak = 0.57
 Radius of final BH = 199 km
 </pre></div>
 </div>
-<img alt="_images/index_34_1.png" src="_images/index_34_1.png" />
+<img alt="_images/index_35_1.png" src="_images/index_35_1.png" />
 </div>
 </div>
 </div>
@@ -1222,12 +1236,12 @@ The LIGO Scientific Collaboration, the Virgo Collaboration, <a class="reference 
 For detector L1, maximum at 1126259462.4324 with SNR = 13.2, D_eff = 999.74, horizon = 1650.6 Mpc
 </pre></div>
 </div>
-<img alt="_images/index_36_1.png" src="_images/index_36_1.png" />
-<img alt="_images/index_36_2.png" src="_images/index_36_2.png" />
-<img alt="_images/index_36_3.png" src="_images/index_36_3.png" />
-<img alt="_images/index_36_4.png" src="_images/index_36_4.png" />
-<img alt="_images/index_36_5.png" src="_images/index_36_5.png" />
-<img alt="_images/index_36_6.png" src="_images/index_36_6.png" />
+<img alt="_images/index_37_1.png" src="_images/index_37_1.png" />
+<img alt="_images/index_37_2.png" src="_images/index_37_2.png" />
+<img alt="_images/index_37_3.png" src="_images/index_37_3.png" />
+<img alt="_images/index_37_4.png" src="_images/index_37_4.png" />
+<img alt="_images/index_37_5.png" src="_images/index_37_5.png" />
+<img alt="_images/index_37_6.png" src="_images/index_37_6.png" />
 </div>
 </div>
 <div class="section" id="notes-on-these-results">
