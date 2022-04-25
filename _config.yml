@@ -3,7 +3,7 @@ title: Ligo and Leif Cooperative Research Project for Make Benefit Glorious Nati
 author: Ligo Scientific Collaboration (LSC) and Leif-Martin Sæther Sunde
 logo: logo.png
 execute:
-  execute_notebooks: force
+  execute_notebooks: off
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
